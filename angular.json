@@ -38,10 +38,17 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-CM",
+        "locales": {
+          "fr-CM": "src/locale/messages.fr-CM.json"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": true,
             "outputPath": "dist/angular-multilanguages",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -59,6 +66,12 @@
             ]
           },
           "configurations": {
+            "fr-CM": {
+              "localize": ["fr-CM"]
+            },
+            "en-CM": {
+              "localize": ["en-CM"]
+            },
             "production": {
               "budgets": [
                 {
@@ -96,6 +109,13 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-multilanguages:build:production"
+            },
+            "fr-CM": {
+              "browserTarget": "angular-multilanguages:build:fr-CM"
+            },
+
+            "en-CM": {
+              "browserTarget": "angular-multilanguages:build:en-CM"
             },
             "development": {
               "browserTarget": "angular-multilanguages:build:development"

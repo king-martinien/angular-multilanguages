@@ -1,7 +1,7 @@
 <app-header></app-header>
 <main class="py-4">
   <div class="container">
-    <p class="fw-light">
+    <p class="fw-light" i18n>
       Hello everyone, welcome to this page created by
       <a href="https://github.com/Dev-Martinien">King Martinien</a>. Here I
       implemented the internationalization with the i18n package from angular
@@ -11,7 +11,7 @@
       see.
     </p>
 
-    <p class="fw-light">
+    <p class="fw-light" i18n>
       with i18n you can also change the images according to the chosen language;
       take a look at these bagde pictures and see how they change when you
       change the language
@@ -20,13 +20,17 @@
     <div class="badges d-flex gap-2">
       <a href="" class="d-flex">
         <img
+          i18n-src
           src="assets/images/en-CM/playstore-en-badge.png"
+          i18n-alt
           alt="playstore badge image"
         />
       </a>
       <a href="" class="d-flex">
         <img
+          i18n-src
           src="assets/images/en-CM/appstore-en-badge.png"
+          i18n-alt
           alt="appstore badge image"
         />
       </a>

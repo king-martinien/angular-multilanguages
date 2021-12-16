@@ -1,0 +1,12 @@
+{
+  "locale": "fr-CM",
+  "translations": {
+    "6285792967399794494": " Bonjour à tous, bienvenue sur cette page créée par {$START_LINK}King Martinien{$CLOSE_LINK}. Ici, j'ai implémenté l'internationalisation avec le package i18n à partir de la version angulaire 13.0.3. {$LINE_BREAK} ci-dessus, vous avez un petit menu où vous pouvez changer la langue ; essaie pour voir. ",
+    "2954537111842717440": " Avec i18n, vous pouvez également modifier les images en fonction de la langue choisie ; jetez un oeil à ces images bagde et voyez comment elles changent lorsque vous changez de langue ",
+    "5275801760735090486": "assets/images/fr-CM/playstore-fr-badge.png",
+    "6679290631105785211": "image de badge playstore",
+    "7124542603441410168": "assets/images/fr-CM/appstore-fr-badge.png",
+    "8768747891839129152": "image de badge appstore",
+    "5220026871712957188": "Implementation Multilangue avec Angular"
+  }
+}
